@@ -1,0 +1,6 @@
+if SHIELD_ERGOTYPER
+
+config ZMK_KEYBOARD_NAME
+	default "Ergotyper"
+
+endif
