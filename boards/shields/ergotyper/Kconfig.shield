@@ -1,2 +1,5 @@
-config SHIELD_ERGOTYPER
-	def_bool $(shields_list_contains,ergotyper)
+config SHIELD_ERGOTYPER_LEFT
+	def_bool $(shields_list_contains,ergotyper_left)
+
+config SHIELD_ERGOTYPER_RIGHT
+	def_bool $(shields_list_contains,ergotyper_right)

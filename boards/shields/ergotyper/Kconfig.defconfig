@@ -1,6 +1,19 @@
-if SHIELD_ERGOTYPER
+if SHIELD_ERGOTYPER_LEFT
 
 config ZMK_KEYBOARD_NAME
 	default "Ergotyper"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_ERGOTYPER_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "Ergotyper"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default n
 
 endif
