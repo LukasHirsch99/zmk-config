@@ -13,4 +13,7 @@ if SHIELD_ERGOTYPER_LEFT || SHIELD_ERGOTYPER_RIGHT
 config ZMK_SPLIT
     default y
 
+config ZMK_SLEEP
+    default y
+
 endif
