@@ -1,7 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "ergotyper-layouts.dtsi"
 
-physical_layout0: physical_layout_0 {
+&physical_layout0 {
     transform = <&default_transform>;
     kscan = <&kscan0>;
 };
