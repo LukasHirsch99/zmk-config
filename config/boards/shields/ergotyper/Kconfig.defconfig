@@ -13,10 +13,4 @@ if SHIELD_ERGOTYPER_LEFT || SHIELD_ERGOTYPER_RIGHT
 config ZMK_SPLIT
     default y
 
-config ZMK_SLEEP
-    default y
-
-config ZMK_IDLE_SLEEP_TIMEOUT
-    default 300000
-
 endif
