@@ -1,17 +1,5 @@
 #include "ergotyper.dtsi"
 
-&default_transform {
-    col-offset = <7>;
-};
-
-&kscan0 {       
-    col-gpios
-        = <&pro_micro 7 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 8 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 18 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 15 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 14 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 16 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 10 GPIO_ACTIVE_HIGH>
-        ;
+&default_transform { // Offset of 3 because the left side has 3 columns
+    col-offset = <17>;
 };
