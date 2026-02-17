@@ -8,7 +8,7 @@
 // Home row mods macro
 #define HRML(k1,k2,k3,k4) &ht LALT k1  &ht LGUI k2  &ht LSHFT k3  &ht LCTRL k4
 #define HRMR(k1,k2,k3,k4) &ht RCTRL k1  &ht RSHFT k2  &ht RGUI k3  &ht RALT k4
-#define HYPR LC(LS(LA(LGUI)))
+#define MEH LC(LS(LALT))
 
 / {
     behaviors {
@@ -46,7 +46,7 @@
         //│  Z       │  X       │  C       │  D       │  V       │   │  K       │  H       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp H      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┴──────────┼──────────┤   ├──────────┼──────────┴──────────┴──────────┴──────────╯
-                                            &lt 3 TAB   &kp ENTER     &mt HYPR SPACE  &lt 2 BSPC
+                                            &lt 3 TAB   &kp ENTER     &mt MEH SPACE  &lt 2 BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -63,7 +63,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┴──────────┼──────────┤   ├──────────┼──────────┴──────────┴──────────┴──────────╯
-                                            &lt 3 TAB   &kp ENTER     &mt HYPR SPACE  &lt 2 BSPC
+                                            &lt 3 TAB   &kp ENTER     &mt MEH SPACE  &lt 2 BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
